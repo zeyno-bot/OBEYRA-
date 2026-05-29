@@ -704,7 +704,7 @@ if (!normalizedSender) return;
                 }
 
                 if (user.muto && !isROwner && !isOwner) {
-                    await this.sendMessage(m.chat, { text: `🚫 Hai il cazzo di OBEYRA staff in bocca,non puoi usare i comandi.` }, { quoted: m }).catch(e => console.error('[ERRORE] Errore nell\'invio del messaggio:', e))
+                    await this.sendMessage(m.chat, { text: `🚫 Hai il cazzo di Obeyra staff in bocca,non puoi usare i comandi.` }, { quoted: m }).catch(e => console.error('[ERRORE] Errore nell\'invio del messaggio:', e))
                     return
                 }
 
