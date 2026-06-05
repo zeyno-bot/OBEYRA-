@@ -20,7 +20,7 @@ let handler = async (m, { conn, isRowner }) => {
         if (!isImageValid(media)) {
             return m.reply('🌲 Il file inviato non è un\'immagine valida.');
         }
-        const filePath = './media/banner.jpg';
+        const filePath = './media/5d5025d8089d17f1c24ea8fa1e10ad49.jpg';
         fs.writeFileSync(filePath, media);
         global.imagen1 = filePath;
         global.imagen2 = filePath;
