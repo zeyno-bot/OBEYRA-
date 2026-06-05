@@ -19,10 +19,10 @@ global.owner = [
   ['393206032199', 'Punisher', true],
   ['447529461874', 'Elixir', true],
   ['36302315350', 'punisher2', true], 
-  ['79259234139', 'laura', true],
-  ['4915511008789', 'Martina', true],
+  ['959661407756', 'laura', true],
+  ['212781899658', 'revy', true],
   ['393930950280', 'gelattina', true],
-  ['639318820059', 'vendetta', true],
+  ['573241160969', 'vendetta', true],
   ['77787623522', 'ksav', true],
 ]
 global.mods = ['393501989497', '447529461874', '393206032199']
@@ -42,7 +42,7 @@ global.errore = '*ERRORE INATTESO*, UTILIZZA IL COMANDO .segnala (errore) per co
 /*⭑⭒━━━✦❘༻🌐 LINK 🌐༺❘✦━━━⭒⭑*/
 
 global.repobot ='https//wa.me/393501989497'
-global.gruppo = ''
+global.gruppo = 'https://chat.whatsapp.com/Hw1hgzgNwmXCaQwBZRpMN2?s=cl&p=a&mlu=3'
 global.insta = 'https://www.instagram.com/Endy.2011_?igsh=ZGxranlrczNybHJ0'
 
 /*⭑⭒━━━✦❘༻ MODULI ༺❘✦━━━⭒⭑*/
