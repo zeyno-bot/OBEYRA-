@@ -41,7 +41,7 @@ const handler = async (m, { isPrems, conn }) => {
 │ ${isPrems ? '『 👑 』 *BONUS PREMIUM x2!*' : '『 💡 』 _Diventa premium per premi doppi!_'}
 │
 *╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*`;
-  await conn.sendFile(m.chat, './media/', '', testo, m);
+  await conn.sendFile(m.chat, './media/f7505a03c9e3e3f6bfb9e0ec669d5c8f.jpg', 'f7505a03c9e3e3f6bfb9e0ec669d5c8f.jpg', testo, m);
 };
 
 handler.help = ['forziere'];
