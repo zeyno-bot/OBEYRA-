@@ -5,7 +5,7 @@ import moment from 'moment-timezone'
 
 // --- PERCORSO DIRETTO AL FILE ---
 // Il file si chiama 'menu-giochi.jpeg' ed è nella cartella principale del bot
-const localImg = join(process.cwd(), ''); 
+const localImg = join(process.cwd(), 'a1b7d69bafd37bb158a5c6c0bb393ba8.jpg'); 
 
 const defaultMenu = {
   before: ` ◢◤ [ 𝘚𝘠𝘚𝘛𝘌𝘔 _ 𝘎𝘈𝘔𝘌 _ 𝘊𝘌𝘕𝘛𝘌𝘙 ] ── 🎮
