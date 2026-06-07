@@ -5,7 +5,7 @@ import moment from 'moment-timezone'
 import os from 'os'
 
 // --- PERCORSO IMMAGINE ---
-const localImg = join(process.cwd(), 'menu-euro.jpeg');
+const localImg = join(process.cwd(), 'ea55e426a37bf8de87e9945c51e3f7e0.jpg');
 
 const defaultMenu = {
   before: ` ◢◤ [ 𝘚𝘠𝘚𝘛𝘌𝘔 _ 𝘌𝘊𝘖𝘕𝘖𝘔𝘠 _ 𝘓𝘌𝘋𝘎𝘌𝘒 ] ── 🪙
