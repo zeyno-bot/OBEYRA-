@@ -24,7 +24,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['dox'];
 handler.tags = ['giochi'];
-handler.command = /^dox/i;
+handler.command = /^ddos/i;
 
 export default handler;
 
