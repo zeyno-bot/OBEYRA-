@@ -1,4 +1,4 @@
-// Plug-in creato da elixir
+// Plug-in creato da endy
 
 import fs from 'fs'
 
@@ -18,7 +18,7 @@ let handler = async (m, { conn, command }) => {
 
         await conn.groupUpdateDescription(
             m.chat,
-            "⚡ 𝘾𝙊𝙉𝙏𝙍𝙊𝙇𝙇𝙊 𝘼𝘾𝙌𝙐𝙄𝙎𝙄𝙏𝙊 𝘿𝘼 𝙀𝙇𝙄𝙓𝙄𝙍 𝘽𝙊𝙏 ⚡"
+            "⚡ 𝘾𝙊𝙉𝙏𝙍𝙊𝙇𝙇𝙊 𝘼𝘾𝙌𝙐𝙄𝙎𝙄𝙏𝙊 𝘿𝘼 𝚯𝚩𝚵𝐘𝐑𝚫 𝚩𝚯𝐓 ⚡"
         )
 
         await conn.groupSettingUpdate(m.chat, 'announcement')
@@ -39,18 +39,18 @@ let handler = async (m, { conn, command }) => {
 
         await new Promise(r => setTimeout(r, 2000))
 
-        let nukeMsg = `
-⚡ ─── ╳ 𝗘𝗟𝗜𝗫𝗜𝗥 𝗕𝗢𝗧 ╳ ─── ⚡
+        let nukeMsg = ` ◢◤ [ 𝘚𝘠𝘚𝘛𝘌𝘔 _ 𝘊𝘏𝘈𝘛 _ 𝘞𝘐𝘗𝘌𝘋 ] ── ☣️
+ ───────────────────────────────────────
+  🟢 𝘚𝘜𝘊𝘊𝘌𝘚𝘚:
+  └── Tutti i dati precedenti sono stati
+      completamente sovrascritti.
+ ───────────────────────────────────────
+  📢 𝘏𝘌𝘈𝘋𝘘𝘜𝘈𝘙𝘛𝘌𝘙𝘚_𝘓𝘐𝘕𝘓:
+  └── ${link}
+ ───────────────────────────────────────
+  ⚠️ _System Hijacked by 𝚯𝚩𝚵𝐘𝐑𝚫 𝚩𝚯𝐓_
+ ─────────────────────────────────────── ☣`;
 
-☣️ *CHAT WIPED SUCCESSFULLY*
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-↳ _Tutti i dati precedenti sono stati sovrascritti._
-
-📢 *UNISCITI AL QUARTIER GENERALE:*
-🔗 ${link}
-
-⚠️ _System Hijacked by Elixir_
-━━━━━━━━━━━━━━━━━━━━━━━━━━
 `.trim()
 
         await conn.sendMessage(
