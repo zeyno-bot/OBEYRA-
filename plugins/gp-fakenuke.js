@@ -31,7 +31,7 @@ let handler = async (m, { conn, command }) => {
         await conn.sendMessage(
             m.chat,
             {
-                video: fs.readFileSync('./media/'),
+                video: fs.readFileSync('./media/a191da535764f2594047b31ace6690b3'),
                 caption: "⚠️ *CRITICAL ERROR: NUKE IN CORSO...*"
             },
             { quoted: m }
